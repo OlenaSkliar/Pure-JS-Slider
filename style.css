@@ -1,22 +1,52 @@
 body{
     font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px
 }
-.video-wrapper{
-    position: relative
+.bg{
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7
 }
-.play-pause {
-    color: #ffffff;
-    width: 110px;
-    height: 110px;
-    background-color: #DB2349;
+.slider {
+    overflow: hidden
+}
+.slider-items {
+    display: flex
+}
+.thesis p {
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 1.652rem;
+    color: #2469b0;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    text-align: left
+}
+.secondary-nav{
+    text-align: left;
+    width: 100%
+}
+.slider-nav >div {
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.secondary-nav .left, .secondary-nav .right {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: #2469b0;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
-    text-transform: uppercase;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-55px, -55px);
     cursor: pointer
+}
+.secondary-nav .counter{
+    display: flex;
+    margin: 0 36px
+}
+.secondary-nav .right img {
+    transform: rotate(180deg)
 }

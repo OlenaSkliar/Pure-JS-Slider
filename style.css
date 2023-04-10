@@ -2,10 +2,11 @@ body{
     font-family: 'Source Sans 3', sans-serif;
     font-size: 16px
 }
-.bg{
+.slider-wrapper{
     display: flex;
     flex-direction: column;
-    background-color: #f7f7f7
+    width: 50%;
+    margin: auto
 }
 .slider {
     overflow: hidden
@@ -18,9 +19,8 @@ body{
     font-weight: 500;
     font-size: 1.652rem;
     color: #2469b0;
-    text-align: center;
     line-height: 1.4;
-    margin-bottom: 10px;
+    margin: 20px 0 10px;
     text-align: left
 }
 .secondary-nav{

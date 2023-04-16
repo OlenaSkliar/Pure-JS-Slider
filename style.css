@@ -54,4 +54,7 @@ body{
     .slider-wrapper{
         width: 100%
     }
+    .thesis p{
+        font-size: 1rem
+    }
 }
